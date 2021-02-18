@@ -12,4 +12,8 @@ export default class Post {
       img: this.img
     }, null, 2)
   }
+
+  get uppercaseTitle() {
+    return this.title.toUpperCase()
+  }
 }
